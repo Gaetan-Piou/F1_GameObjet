@@ -91,7 +91,7 @@ END;
 
 function produitVectoriel(V1,V2:vecteur2D):INTEGER;
 BEGIN
-	produitVectoriel := (V1.x * V2.y) - (V1.y * V2.x);
+	produitVectoriel := (V1.x - V2.x) * (V1.y - V2.y);
 END;
 	
 END.
